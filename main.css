@@ -1,0 +1,1037 @@
+
+/* CSS MENU
+1. HEADER AREA
+2. CONTAINER
+3. LEFT SIDEBARS
+4. PRODUCT BOXES - TOP AREA 
+5. PRODUCT BOXES - LOWER AREA
+*/
+
+body {
+	font-family: "Helvetica", "sans-serif";
+	margin: 0 auto;
+	background-color: #f5f5f1;
+}
+//* {
+	border-box: box-sizing;
+}*/
+
+#mainContainer {
+	margin: 0 auto;
+	padding: 0px;
+	width: 1000px;
+}
+
+/* 
+X
+x
+x
+X
+1. HEADER AREA */
+
+#header {     /*<!--this is the top header with Etsy, search etc.-->*/
+	height: 81px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #FFFFFF;
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+#headerLogo {
+	width: 120px;
+	height: 81px;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	float:left;
+}
+
+#headerLogo img {
+	width: 112px;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 30px;
+	margin-right: 20px;
+	display: inline;
+}
+
+#searchWrapper { /*!-- this wraps around the search box and button-->*/
+	width: 340px;
+	height: 34px;
+	border: 1px solid #D3D3D3;
+	float: left;
+	border-radius: 5px;
+	display: inline;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	margin-left: 50px;
+}
+
+#searchBox { /*<!--this is the area with the search box -->*/
+	width: 259px;
+	height: 33px;
+	display:inline;	
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	float:left;
+}
+
+#search {
+	display: inline;
+}
+
+#search input {
+	width: 259px;
+	height: 31px;
+	padding: 0px;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#searchButton { /*  <!--this is the area with the search button --> */
+	width: 81px;
+	height: 34px;
+	background-color: #34a8c4;
+	color: #FFFFFF;
+	font-weight: bold;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+}
+
+button { /*  <!--this is the search button --> */
+	width: 79px;
+	height: 34px;
+	background-color: #34a8c4;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 5px;	
+	text-align: center;
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#searchListDiv { /*< !--this is the the section with the links and search box on the top right-->*/
+	width: 425px;
+	height: 81px;
+	float: right;
+	display: inline;
+}
+
+.blue {
+	color: #3064e0;
+}
+
+#searchList { /* this is the UL in the searchbox div*/
+	color: #000000;
+	font-size: 11px;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding-left: 3px;
+	padding-right: 3px;
+	list-style-type: none;
+	text-decoration: none;
+	height: 30px;
+	width: 400px;
+}
+
+
+#searchList li {
+	text-decoration: none;
+	float: left;
+	padding-right: 15px;
+	margin-top:20px;
+	color: #D3D3D3;
+	font-size: 12px;
+	text-align: center;
+	height: 40px;
+	margin-right: 5px;
+	border-right: 1px solid #D3D3D3;
+	width:50px;
+
+}
+
+#searchList li:first-child {
+	margin-top: 33px;
+	width: 80px;
+	border-right: none;
+	color: #3064e0;
+}
+#searchList a {
+	color: #34a8c4;
+	text-decoration: none;
+}
+.navRightList a {
+	color: #D3D3D3;
+}
+#home img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: #D3D3D3;
+}
+#home a {
+	color: #000000;
+}
+
+#favorites img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#favorites a {
+	color: #000000;
+}
+
+#you img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#you a {
+	color: #000000;
+}
+
+#cart img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#cart a {
+	color: #000000;
+}
+
+
+
+
+#navHeader { /*<!--This is the navigation header-->*/
+	height: 43px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #FFFFFF;
+	clear: both;
+	border-bottom: 1px solid black;
+}
+
+#navHeaderList {  /* this is the list in the nav bar */
+	font-size: 11px;
+	color: #000000;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+#navHeaderList li {
+	float: left;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+#navHeaderList a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/* 
+X
+x
+x
+x
+x
+X
+2. CONTAINER */
+
+#container {  /*<!-- This is the div containing the elements on the body of the page-->*/
+	background-color: #f5f5f1;
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#clearfix {   /* <!--this is to clear the area between the two product areas--> */
+	width: 1000px;
+	height: 40px;
+	background-color: #f5f5f1;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+}
+
+#containerTop {
+	width: 1000px;
+	height: 50px;
+	background-color: #f5f5f1;
+	clear: both;
+}
+
+#showResults {
+	width: 247px;
+	font-size: 12px;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-top: 10px;
+}
+
+#TopCategories {
+	width: 250px;
+	font-size: 13px;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-top: 8px;
+	margin-right: 20px;
+	margin-left:25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+/* 
+X
+x
+x
+x
+x
+X
+3. LEFT SIDEBARS */
+
+#categoryBar { /*<!-- This is the div for the category link bar on the left hand side-->*/
+	width: 245px;
+	height: 365px;
+	color: #3064e0;
+	border: 2px solid #D3D3D3;
+	display: inline;
+	position: relative;
+	float: left;
+	background-color: #FFFFFF;
+	margin-right: 25px;
+}
+
+#categoryTitle {
+	color: black;
+	font-weight: bold;
+	background-color: #f5f5f1;
+	font-size: 11px;
+	margin-left:5px;
+}
+
+.categoryBarSpan {
+	color: #000000;
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+/* change padding/margin so this moves back more left from the list*/
+}
+
+.blueSpan a:link {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.blueSpan a:hover {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.blueSpan a:visited {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+.categoryBarSpan a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#categoriesList { /*<!-- This is the list of categories on the upper left area-->*/
+	font-size: 12px;
+	color: #34a8c4;
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 15px;
+	list-style-type: none;
+	text-decoration: none;
+	line-height: 1.75em;
+}
+
+#categoriesList a {
+	text-decoration: none;
+	color: #34a8c4;
+}
+#refineYourSearch {
+	width: 1000px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	margin-left: 130px;
+}
+#lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
+	width: 230px;
+	height: 800px;
+	border: 2px solid #D3D3D3;
+	float: left;
+	background-color: #FFFFFF;	
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	text-decoration: none;
+	line-height: 1.75em;
+	margin-right: 25px;
+	position: relative;
+	margin-left: 115px;
+}
+
+#priceLowtoHigh {
+	width: 200px;
+	height: 30px;
+	color: #000000;
+}
+
+#low {
+	width: 45px;
+	height: 25px;
+	border-right: 2px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	border-top: 2px solid #000000;
+	border-left: 1px solid #00000;
+	float: left;
+	margin-right:10px;
+	text-align: center;	
+}
+
+#high {
+	width: 45px;
+	height: 25px;
+	border-right: 2px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	border-top: 2px solid #000000;
+	border-left: 1px solid #00000;
+	float: left;
+	text-align: center;		
+}
+
+.price {
+	color: #000000;
+	font-size: 11px;
+	float: left;
+	margin-right:10px;
+	text-align: center;		
+}
+
+.price1 img {
+	width: 32px;
+	height: 26px;
+}
+
+.price1 {
+	color: #000000;
+	height: 26px;
+	font-size: 11px;
+	float: left;
+	margin-left: 10px;
+	text-align: center;	
+	border: 1px solid #D3D3D3;
+	padding: 0px;	
+	margin-bottom: 0px;
+	border-radius: 5px;
+}
+
+hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0; padding: 0;}
+
+#colorSearchUL {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.colorBox {
+	width: 22px;
+	height: 22px;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+}
+.red {
+	background-color: #f40b32;
+	border-radius: 3px;
+	color: #f40b32;
+	text-decoration: none;
+}
+
+.red a {
+	text-decoration: none;
+	color: #f40b32;
+}
+
+.red a: hover {
+	text-decoration: none;
+	color: #f40b32;
+}
+
+.red a: visited {
+	text-decoration: none;
+	color: #f40b32;
+}
+
+.orange {
+	background-color: #ff7f00;
+	border-radius: 3px;
+}
+
+.orange a {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
+.orange a: hover {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
+.orange a: visited {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
+.yellow {
+	background-color: #f3cc0c;
+	border-radius: 3px;
+}
+
+.yellow a {
+	text-decoration: none;
+	color: #f3cc0c;
+}
+
+.yellow a: hover {
+	text-decoration: none;
+	color: #f3cc0c;
+}
+
+.yellow a: visited {
+	text-decoration: none;
+	color: #f3cc0c;
+}
+
+.green {
+	background-color: #0ac20a;
+	border-radius: 3px;
+}
+
+.green a {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
+.green a: hover {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
+.green a: visited {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
+.blue {
+	background-color: #0cccf3;
+	border-radius: 3px;
+}
+
+.blue a {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
+.blue a: hover {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
+.blue a: visited {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
+.purple {
+	background-color: #a60cf3;
+	border-radius: 3px;
+}
+
+.purple a {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
+.purple a: hover {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
+.purple a: visited {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
+.black {
+	background-color: #000000;
+	border-radius: 3px;
+}
+
+.black a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.black a: hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.black a: visited {
+	text-decoration: none;
+	color: #000000;
+}
+.white {
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	border: 1px solid #F0F0F0;
+}
+
+.white a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.white a: hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.white a: visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.boxType {
+	display: none;
+}
+
+
+.boxtype {
+	width: 20px;
+	height: 19px;
+}
+
+.buttonbox img {
+	margin-top: 10px;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+
+.boxSpan {
+	text-decoration: none;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
+.boxSpan a {
+	text-decoration: none;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
+.boxSpan a:hover {
+	text-decoration: underline;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
+
+.shipTo {
+	font-size: 12px;
+	color: #000000;
+	width: 200px;
+	height: 30px;
+	border-top: 1px solid #D3D3D3;
+	border-right:1px solid #D3D3D3;
+	border-left:1px solid #D3D3D3;
+	border-bottom: 2px solid #000000;
+	margin-left: 5px;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.shipTo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.shipTo a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.shipTo a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.downarrow {
+	margin: 0;
+	padding: 0;
+}
+
+.shipTo img {
+	margin-left: 100px;
+}
+
+
+/* 
+X
+x
+x
+x
+x
+X
+4.PRODUCT BOXES - TOP AREA */
+
+#topBox { /*<!-- This is the div around the top two lines of products-->*/
+	width: 500px;
+	height: 385px;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	clear: right;
+
+}
+
+#boxOne { /*<!-- This is the div for the top line of items for sale-->*/
+	width: 625px;
+	height: 230px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	display: inline;
+	margin-right: 5px;
+}
+
+
+#boxOne img {
+	width: 285px;
+	height: 226px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-right: 23px;
+}
+
+#boxTwo { /*<!-- This is the div for the second line of items for sale--> */
+	width: 650px;
+	height: 168px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	clear: right;
+	display: inline;
+}	
+
+#boxTwo img {
+	width: 190px;
+	height: 151px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	margin-right: 11px;
+	margin-top: 10px;
+	float:left;
+}		
+
+#homeLivingBox {
+	width: 130px;
+	height: 40px;
+	position: absolute;
+	top: 160px;
+	left: 350px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#artCollectiblesBox {
+	width: 140px;
+	height: 40px;
+	position: absolute;
+	top: 160px;
+	left: 660px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#weddings {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 320px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#clothing {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 522px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#paperParty {
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 690px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.fancy {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Georgia", "Times New Roman", "serif";
+}
+
+
+/* 
+X
+x
+x
+x
+x
+X
+5. PRODUCT BOXES - LOWER AREA */
+
+#heartPic {
+	float: left;
+	position: absolute;
+	margin-top: 3px;
+	margin-left:13%;
+}
+#heartPic img {
+	width: 18px;
+	height: 18px;
+	opacity: 0.4;
+}
+
+
+
+#allCategories {
+	width: 300px;
+	height: 20px;
+	float: left;
+}
+
+.whiskey {
+	font: #000000;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.whiskey::before {
+	content: " >";
+}
+
+.results {
+	font: #D3D3D3;
+	font-size: 11px;
+}
+
+
+#allCategoriesSpan {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#allCategoriesSpan a:link {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#allCategoriesSpan a:hover {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+#allCategoriesSpan a:visited {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+
+#relevancy {
+	width: 113px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	margin-left: 223px;
+	display: inline-block;
+}
+
+.relevancy {
+	font-size: 11px;
+	color: #34a8c4;
+}
+
+.downArrowCSS {
+	width: 0px; 
+	height: 0px; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid #000000;
+	float: right;
+	padding: 0;
+	margin-top: 8px;
+}
+
+.shipToArrow {
+	width: 0px; 
+	height: 0px; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-top: 6px solid #000000;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#shipToArrow {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	margin-top: 5px;
+	padding-right: 5px;
+	height: 12px;
+
+}
+
+#pictureContainer { /*<!-- This is the div for the 16 lines of products at the bottom--> */
+	width: 700px;
+	float: left;
+}
+
+#itemContainer {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #D3D3D3;
+	margin-bottom: 15px;
+}
+
+#image {
+	width: 200px;
+	height: 198px;
+	margin-right: 20px;
+}
+
+#whiteInfoBox {
+	width: 200px;
+	margin-right: 20px;
+	padding: 0px;
+	background-color: #FFFFFF;
+
+}
+
+#itemTitle {
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	padding: 0;
+	padding-left:3px;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+#shopName {
+	color: #D3D3D3;
+	font-size: 11px;
+	width: 196px;
+	padding: 0;
+	padding-left:3px;
+	margin: 0;
+	margin-bottom: 10px;
+	margin-right:3px;
+}
+
+#price {
+	color: green;
+	font-size: 12px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#price::before {
+    content: "$";
+}
+
+#currencyCode {
+	color: green;
+	font-size: 12px;
+	float: right;
+}
