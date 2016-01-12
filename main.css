@@ -389,9 +389,13 @@ X
 	width: 1000px;
 	height: 30px;
 	float: left;
-	display: inline-block;
-	margin-left: 130px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-left: 120px;
+	padding: 0;
 }
+
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
 	width: 230px;
 	height: 800px;
