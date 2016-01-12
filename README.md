@@ -17,7 +17,7 @@ Normal Mode
 
 Re-Create An Etsy Page - https://www.etsy.com/search?q=whiskey
 
-Utilize the data for whatever search term you use - DATA HERE
+Utilize the data for whatever search term you use - DATA HERE **** NOTE - THIS ASSIGNMENT WAS UPDATED WITH A DATA CALL FROM THE ETSY API
 You are free to change the search term to whatever you'd like.
 We haven't covered how to fetch data using JavaScript, so just copy the data and store it in a variable.
 Everything should be styled as closely as possible, including the Header/Sidebar/Links/Search (you can ignore the footer)
@@ -27,3 +27,5 @@ You can ignore the "Top categories for ..." section as that is not in the data. 
 Pro Tip, worry about the structure first, the JS second and the fine details of the design last
 
 Note: The assets (heart, cart and hamburger icons) are in an assets folder for you.
+
+NOTE - This folder was moved over with final files hence the small number of commits
