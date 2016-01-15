@@ -7,163 +7,165 @@
 </head>
 <body>
 	<div id="mainContainer"> <!-- the container that wraps around everything-->
-	<div id="header"> <!--this is the top header with Etsy, search etc.-->
-		<div id="headerLogo"><img src="assets/Etsylogo.jpg"></div>
-		<div id="searchWrapper"> <!-- this wraps around the search box and button-->
+		<div id="header"> <!--this is the top header with Etsy, search etc.-->
+			<div id="headerLogo"><img src="assets/Etsylogo.jpg"></div>
+			<div id="searchWrapper"> <!-- this wraps around the search box and button-->
 			<div id="searchBox"><form id="search"><input type="text" name="search" placeholder="Search"></form></div> <!--this is the area with the search box -->
 			<div id="searchButton"><button id="searchButton">Search</button></div>   <!--this is the area with the search button -->
-		</div> <!-- searchWrapper--> 
+			</div> <!-- searchWrapper--> 
 
-		<div id="searchListDiv"> <!--this is the the section with the links and search box on the top right-->
-			<ul id="searchList">
-				<li id="sellonEtsy"><span = "spanBlue"><a href="#">Sell on Etsy</a></span></li>
-				<li class="navRightList" id="home"><a href="http://www.etsy.com"><img src="assets/home.jpg"></br>Home</a></li>
-				<li class="navRightList" id="favorites"><a href="#"><img src="assets/heart.png"></br>Favorites</a></li>
-				<li class="navRightList" id="you"><a href="#"><img src="assets/head.jpg"></br>You</a></li>
-				<li class="navRightList" id="cart"><a href="#"><img src="assets/cart.png"></br>Cart</a></li>
+			<div id="searchListDiv"> <!--this is the the section with the links and search box on the top right-->
+				<ul id="searchList">
+					<li id="sellonEtsy"><span = "spanBlue"><a href="#">Sell on Etsy</a></span></li>
+					<li class="navRightList" id="home"><a href="http://www.etsy.com"><img src="assets/home.jpg"></br>Home</a></li>
+					<li class="navRightList" id="favorites"><a href="#"><img src="assets/heart.png"></br>Favorites</a></li>
+					<li class="navRightList" id="you"><a href="#"><img src="assets/head.jpg"></br>You</a></li>
+					<li class="navRightList" id="cart"><a href="#"><img src="assets/cart.png"></br>Cart</a></li>
+				</ul>
+			</div> <!-- searchList-->
+
+		</div> <!-- header-->
+
+		<div id="navHeader"> <!--This is the navigation header-->
+			<ul id="navHeaderList">
+				<li><a href="#">Clothing & Accessories</a></li>
+				<li><a href="#">Jewelry</a></li>
+				<li><a href="#">Craft Supplies & Tools</a></li>
+				<li><a href="#">Weddings</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Home & Living</a></li>
+				<li><a href="#">Kids & Baby</a></li>
+				<li><a href="#">Vintage</a></li>
 			</ul>
-		</div> <!-- searchList-->
+		</div> <!-- navHeader -->
 
-	</div> <!-- header-->
+		<div id="container"> <!-- This is the div containing the elements on the body of the page-->
+			<div id="containerTop"> <!-- top area of the container before the pics and category box-->
+				<div id="showResults"><p>Show results for:</p></div>
+				<div id="TopCategories"><p>Top Categories for "whiskey"</p></div>
+			</div> <!--containerTop-->
+			<div id="categoryBar"> <!-- This is the div for the category link bar on the left hand side-->
+				<p class="categoryBarSpan"><a href="https://www.etsy.com/search">All Categories</a></p>
+				<ul id="categoriesList"> <!-- This is the list of categories on the upper left area-->
+					<li><a href="https://www.etsy.com/search/home-and-living"> Home & Living</a></li>
+					<li><a href="https://www.etsy.com/search/art-and-collectibles">Art & Collectibles</a></li>
+					<li><a href="https://www.etsy.com/search/weddings">Weddings</a></li>
+					<li><a href="https://www.etsy.com/search/clothing">Clothing</a></li>
+					<li><a href="https://www.etsy.com/search/paper-and-party-supplies">Paper & Party Supplies</a></li>
+					<li><a href="https://www.etsy.com/search/jewelry">Jewelry</a></li>
+					<li><a href="https://www.etsy.com/search/accessories">Accessories</a></li>
+					<li><a href="https://www.etsy.com/search/craft-supplies-and-tools">Craft Supplies & Tools</a></li>
+					<li><a href="https://www.etsy.com/search/bags-and-purses">Bags & Purses</a></li>
+					<li><a href="https://www.etsy.com/search/bath-and-beauty">Bath & Beauty</a></li>
+					<li><a href="https://www.etsy.com/search/shoes">Shoes</a></li>
+					<li><a href="https://www.etsy.com/search/books-movies-and-music">Books, Movies & Music</a></li>
+					<li><a href="https://www.etsy.com/search/electronics-and-accessories">Electronics & Accessories</a></li>
+					<li><a href="https://www.etsy.com/search/toys-and-games">Toys & Games</a></li>
+					<li><a href="https://www.etsy.com/search/pet-supplies">Pet Supplies</a></li>
+				</ul> <!-- categoriesList-->
+			</div> <!-- categoryBar-->
 
-	<div id="navHeader"> <!--This is the navigation header-->
-		<ul id="navHeaderList">
-			<li><a href="#">Clothing & Accessories</a></li>
-			<li><a href="#">Jewelry</a></li>
-			<li><a href="#">Craft Supplies & Tools</a></li>
-			<li><a href="#">Weddings</a></li>
-			<li><a href="#">Entertainment</a></li>
-			<li><a href="#">Home & Living</a></li>
-			<li><a href="#">Kids & Baby</a></li>
-			<li><a href="#">Vintage</a></li>
-		</ul>
-	</div> <!-- navHeader -->
-
-	<div id="container"> <!-- This is the div containing the elements on the body of the page-->
-		<div id="containerTop"> <!-- top area of the container before the pics and category box-->
-			<div id="showResults"><p>Show results for:</p></div>
-			<div id="TopCategories"><p>Top Categories for "whiskey"</p></div>
-		</div> <!--containerTop-->
-		<div id="categoryBar"> <!-- This is the div for the category link bar on the left hand side-->
-		<p class="categoryBarSpan"><a href="https://www.etsy.com/search">All Categories</a></p>
-			<ul id="categoriesList"> <!-- This is the list of categories on the upper left area-->
-				<li><a href="https://www.etsy.com/search/home-and-living"> Home & Living</a></li>
-				<li><a href="https://www.etsy.com/search/art-and-collectibles">Art & Collectibles</a></li>
-				<li><a href="https://www.etsy.com/search/weddings">Weddings</a></li>
-				<li><a href="https://www.etsy.com/search/clothing">Clothing</a></li>
-				<li><a href="https://www.etsy.com/search/paper-and-party-supplies">Paper & Party Supplies</a></li>
-				<li><a href="https://www.etsy.com/search/jewelry">Jewelry</a></li>
-				<li><a href="https://www.etsy.com/search/accessories">Accessories</a></li>
-				<li><a href="https://www.etsy.com/search/craft-supplies-and-tools">Craft Supplies & Tools</a></li>
-				<li><a href="https://www.etsy.com/search/bags-and-purses">Bags & Purses</a></li>
-				<li><a href="https://www.etsy.com/search/bath-and-beauty">Bath & Beauty</a></li>
-				<li><a href="https://www.etsy.com/search/shoes">Shoes</a></li>
-				<li><a href="https://www.etsy.com/search/books-movies-and-music">Books, Movies & Music</a></li>
-				<li><a href="https://www.etsy.com/search/electronics-and-accessories">Electronics & Accessories</a></li>
-				<li><a href="https://www.etsy.com/search/toys-and-games">Toys & Games</a></li>
-				<li><a href="https://www.etsy.com/search/pet-supplies">Pet Supplies</a></li>
-			</ul> <!-- categoriesList-->
-		</div> <!-- categoryBar-->
-			<!--<div id="topBox"> <!-- This is the div around the top two lines of products-->
-				<div id="boxOne"> <!-- This is the div for the top line of items for sale-->
-						<div id="boxOneItemOne"> <img src="https://img1.etsystatic.com/053/0/11050440/il_570xN.770280705_bk6y.jpg">
-							<div id="homeLivingBox"><span class="fancy">Home & Living</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/home-and-living?q=whiskey&ref=esearch_group0">11,258 Items</a></span></div>
+			<div id="boxOne"> <!-- This is the div for the top line of items for sale-->
+					<div id="boxOneItemOne"> <img src="https://img1.etsystatic.com/053/0/11050440/il_570xN.770280705_bk6y.jpg">
+						<div id="homeLivingBox"><span class="fancy">Home & Living</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/home-and-living?q=whiskey&ref=esearch_group0">11,258 Items</a></span>
 						</div>
-						<div id="boxOneItemTwo"><img src ="https://img0.etsystatic.com/057/3/9997414/il_340x270.745560744_9880.jpg"><div id="artCollectiblesBox"><span class="fancy">Art & Collectibles</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey&ref=esearch_group1">4,504 Items</a></span></div>
+					</div>
+					<div id="boxOneItemTwo"><img src ="https://img0.etsystatic.com/057/3/9997414/il_340x270.745560744_9880.jpg">
+						<div id="artCollectiblesBox"><span class="fancy">Art & Collectibles</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey&ref=esearch_group1">4,504 Items</a></span>
 						</div>
-					</div> <!-- boxOne -->
-				<div id="boxTwo"> <!-- This is the div for the second line of items for sale-->
+					</div>
+			</div> <!-- boxOne -->
+			<div id="boxTwo"> <!-- This is the div for the second line of items for sale-->
 					<div id="boxTwoItemOne"> <img src="https://img0.etsystatic.com/100/0/8057725/il_340x270.830898650_50z5.jpg">
-						<div id="weddings"><span class="fancy">Weddings</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/weddings">3,393 Items</a></span></div>
+						<div id="weddings"><span class="fancy">Weddings</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/weddings">3,393 Items</a></span>
+						</div>
 					</div>
 					<div id="boxTwoItemTwo"> <img src="https://img0.etsystatic.com/057/1/10345019/il_340x270.763319240_5yxw.jpg">
-						<div id="clothing"><span class="fancy">Clothing</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/clothing?q=whiskey&ref=esearch_group3">1,749 Items</a></span></div>
+						<div id="clothing"><span class="fancy">Clothing</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/clothing?q=whiskey&ref=esearch_group3">1,749 Items</a></span>
+						</div>
 					</div>
-						
 					<div id="boxTwoItemThree"><img class="top3"src="https://img0.etsystatic.com/070/0/9138920/il_340x270.820008594_2juk.jpg">
-						<div id="paperParty"><span class="fancy">Paper & Party Supplies</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/paper-and-party-supplies?q=whiskey&ref=esearch_group4">1,332 Items</a></span></div>
+						<div id="paperParty"><span class="fancy">Paper & Party Supplies</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/paper-and-party-supplies?q=whiskey&ref=esearch_group4">1,332 Items</a></span>
+						</div>
 					</div>
-				</div> <!-- boxTwo -->
-			</div> <!--topBox-->
+			</div> <!-- boxTwo -->
+
 			<div id ="refineYourSearch">
 				<p class="categoryBarSpan">Refine Your Search</p>
 			</div>
+			
 			<div id="lowerRightSearch"> <!--This is the div for the lower right search box area-->
-			<form id="itemType" class="bluespan">
-				<p><span class="categoryBarSpan">Item Type</span></br>
-				<input type="radio" name="itemtype" checked><span class="blueSpan"><a href="#">All Items</a></span></input></br>
-				<input type="radio" name="handmade"><span class="blueSpan"><a href="#">Handmade</a></span></input></br>
-				<input type="radio" name="vintage"><span class="blueSpan"><a href="#">Vintage</a></span></input></br>
-				</p>
-			</form>
+				<form id="itemType" class="bluespan">
+					<p><span class="categoryBarSpan">Item Type</span></br>
+						<input type="radio" name="itemtype" checked><span class="blueSpan"><a href="#">All Items</a></span></input></br>
+						<input type="radio" name="handmade"><span class="blueSpan"><a href="#">Handmade</a></span></input></br>
+						<input type="radio" name="vintage"><span class="blueSpan"><a href="#">Vintage</a></span></input></br>
+					</p>
+				</form>
 
-			<div class="hline"></div><hr />
+				<div class="hline"></div><hr />
 
-			<div id="priceLowtoHigh">
-			<p><span class="categoryBarSpan">Price</span></br>
-				<input id="low" type="text" name="low" value="$ Low"></input>
-				<span class="price">to</span>
- 				<input id="high" type="text" name="high" value="$ High"></input>
- 				<span class="price1"><a href="#"><img src="assets/arrow.jpg"></a></span></p>
- 			</div></br></br>
+				<div id="priceLowtoHigh">
+					<p><span class="categoryBarSpan">Price</span></br>
+						<input id="low" type="text" name="low" value="$ Low"></input>
+						<span class="price">to</span>
+ 						<input id="high" type="text" name="high" value="$ High"></input>
+ 						<span class="price1"><a href="#"><img src="assets/arrow.jpg"></a></span></p>
+ 				</div></br></br>
 
-			<div class="hline"></div><hr />
-
-
-			<div id="colorSearch">
-				<p><span class="categoryBarSpan">Filter by Color</span></br>
-				<ul id="colorSearchUL">
-					<li class="red colorBox"><a href="#">xx</a></li>
-					<li class="orange colorBox"><a href="#">xx</a></li>
-					<li class="yellow colorBox"><a href="#">xx</a></li>
-					<li class="green colorBox"><a href="#">xx</a></li>
-					<li class="blue colorBox"><a href="#">xx</a></li>
-					<li class="purple colorBox"><a href="#">xx</a></li>
-					<li class="black colorBox"><a href="#">xx</a></li>
-					<li class="white colorBox"><a href="#">xx</a></li>
-				</ul>
-				</br></br>
-			</div>
-
-			<div class="hline"></div><hr />
+				<div class="hline"></div><hr />
 
 
-			<form id="orderingOptions" class="bluespan">
-				<p><span class="categoryBarSpan">Ordering Options</span></br>
-				<input type="checkbox" name="itemtype" class="boxType"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;In Your Favorites</a></span></br>
-				<input type="checkbox" name="handmade" class="boxType" id="checkbox2"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;Accepts Etsy Gift Cards</a></span></br>
-				<input type="checkbox" name="vintage" class="boxType" id="checkbox3"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;Customizable</a></span></br>
-				</p>
-			</form>
+				<div id="colorSearch">
+					<p><span class="categoryBarSpan">Filter by Color</span></br>
+					<ul id="colorSearchUL">
+						<li class="red colorBox"><a href="#">xx</a></li>
+						<li class="orange colorBox"><a href="#">xx</a></li>
+						<li class="yellow colorBox"><a href="#">xx</a></li>
+						<li class="green colorBox"><a href="#">xx</a></li>
+						<li class="blue colorBox"><a href="#">xx</a></li>
+						<li class="purple colorBox"><a href="#">xx</a></li>
+						<li class="black colorBox"><a href="#">xx</a></li>
+						<li class="white colorBox"><a href="#">xx</a></li>
+					</ul>
+					</br></br>
+				</div>
+
+				<div class="hline"></div><hr />
+
+
+					<form id="orderingOptions" class="bluespan">
+					<p><span class="categoryBarSpan">Ordering Options</span></br>
+					<input type="checkbox" name="itemtype" class="boxType"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;In Your Favorites</a></span></br>
+					<input type="checkbox" name="handmade" class="boxType" id="checkbox2"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;Accepts Etsy Gift Cards</a></span></br>
+					<input type="checkbox" name="vintage" class="boxType" id="checkbox3"></input><span="buttonBox"><a href="#"><img src="assets/buttonbox.jpg"></a></span><span class="boxSpan"><a href="#">&nbsp;Customizable</a></span></br></p>
+					</form>
 	
-			<div class="hline"></div><hr />
+				<div class="hline"></div><hr />
 
 
-			<form id="shopLocation" class="bluespan">
-				<p><span class="categoryBarSpan">Shop Location</span></br>
-				<input type="radio" name="anywhere" checked><span class="blueSpan"><a href="#">Anywhere</a></span></input></br>
-				<input type="radio" name="unitedstates"><span class="blueSpan"><a href="#">United States</a></span></input></br>
-				<span class="blueSpan"><a href="#">Choose a custom location</a></span></br>
-				</p>
-			</form>
+					<form id="shopLocation" class="bluespan">
+					<p><span class="categoryBarSpan">Shop Location</span></br>
+					<input type="radio" name="anywhere" checked><span class="blueSpan"><a href="#">Anywhere</a></span></input></br>
+					<input type="radio" name="unitedstates"><span class="blueSpan"><a href="#">United States</a></span></input></br>
+					<span class="blueSpan"><a href="#">Choose a custom location</a></span></br></p>
+					</form>
 
-		<div class="hline"></div><hr />
-
-
-				<p><span class="categoryBarSpan">Ship To</span></br>
-				<p class="shipTo"><a href="#">United States<span id="shipToArrow" class="shipToArrow"></span></a></span></p>
+				<div class="hline"></div><hr />
 
 
-
+					<p><span class="categoryBarSpan">Ship To</span></br>
+					<p class="shipTo"><a href="#">United States<span id="shipToArrow" class="shipToArrow"></span></a></span></p>
 
 			</div><!-- lowerRightSearch--> 
 
 
-			<!--<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
-
 			<div id="allCategories">
-			<span class="blueSpan" id="allCategoriesSpan"><a href="https://www.etsy.com/search?q=whiskey">All Categories</a></span><span class="whiskey"> "whiskey" </span><span class="results">(26,106 Results)</span></div>
-			<div id="relevancy"><span class="results">Sort by:</span><span class="relevancy">&nbsp;Relevancy</span><div class="downArrowCSS"></div>
+				<span class="blueSpan" id="allCategoriesSpan"><a href="https://www.etsy.com/search?q=whiskey">All Categories</a></span><span class="whiskey"> "whiskey" </span><span class="results">(26,106 Results)</span>
+			</div>
+
+			<div id="relevancy"><span class="results">Sort by:</span><span class="relevancy">&nbsp;Relevancy</span>
+				<div class="downArrowCSS"></div>
 			</div>
 
 
@@ -174,7 +176,7 @@
 			<script src="main.js"></script>
 			
  		
- 		<div id="pictureContainer"></div> <!--pictureContainer--> <!-- This is the div for the 16 lines of products at the bottom-->
+ 			<div id="pictureContainer"></div> <!--pictureContainer--> <!-- This is the div for the 16 lines of products at the bottom-->
  
  			<script type="x-tmpl-mustache" id="listItemTemplate">
 	 			
